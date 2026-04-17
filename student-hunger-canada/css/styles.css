@@ -450,7 +450,7 @@ a { color: inherit; }
   display: inline-block;
 }
 .amount-btn:hover,
-.amount-btn.active {
+.amount-btn.is-active {
   background: var(--green-700);
   color: var(--white);
 }
@@ -557,7 +557,7 @@ a { color: inherit; }
     transform: translateY(24px);
     transition: opacity 0.6s ease, transform 0.6s ease;
   }
-  .fade-up.visible {
+  .fade-up.is-visible {
     opacity: 1;
     transform: translateY(0);
   }

@@ -6,7 +6,7 @@
 
 /* ── Scroll Reveal ── */
 (function initScrollReveal() {
-  const targets = document.querySelectorAll('.reveal, .reveal-stagger');
+  const targets = document.querySelectorAll('.fade-up');
   if (!targets.length) return;
 
   const observer = new IntersectionObserver((entries) => {
